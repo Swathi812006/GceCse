@@ -10,7 +10,7 @@ public class demoController {
 	@RequestMapping("/")
 		public String home()
 		{
-			return "Demo";
+			return "pages/Demo";
 		}
 
 }
